@@ -1,3 +1,5 @@
+#Photoshoot
+
 from itertools import permutations as permute
 
 fin = open("photo.in", "r")

@@ -1,3 +1,4 @@
+# Problem: Traffic
 n = int(input())
 traffic = (0,0)
 sections = []

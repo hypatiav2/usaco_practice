@@ -1,3 +1,4 @@
+# Problem: Distancing2
 n = int(input())
 nums = input()
 nums = nums.split(' ')
