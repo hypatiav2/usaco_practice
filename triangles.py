@@ -1,4 +1,3 @@
-
 # Problem: Triangles
 from itertools import permutations
 fin = open('triangles.in', 'r')

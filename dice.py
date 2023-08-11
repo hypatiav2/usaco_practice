@@ -1,3 +1,5 @@
+#Dice 
+
 def beat(x,y):
   xPoints = 0
   yPoints = 0
@@ -26,23 +28,6 @@ for q in range(t):
   temp = [int(i) for i in temp]
   aDice = temp[0:4]
   bDice = temp[4:9]
-  '''' less = True
-  more = True
-  equal = True
-  for a in aDice:
-    for b in bDice:
-      if a > b:
-        less = False
-        equal = False
-      elif a < b:
-        more = False
-        equal = False
-      elif a == b:
-        less = False
-        more = False 
-  if more == True or less==True or equal ==True:
-    answers.append("no")
-    continue '''
 
   win1 = beat(aDice, bDice)
   if win1 == None:

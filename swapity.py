@@ -17,8 +17,6 @@ else:
   def show(x):
     print(x)
     
-    
-
 
 pair = read().split()
 n = int(pair[0])
